@@ -133,18 +133,18 @@ docker run --gpus all -it -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/snd:/dev/snd 
 ![conda_!](picture/conda_1.png)
 *  verify the file integrity the sha256sum command<br>
   $ sha256sum  Anaconda3-5.2.0-Linux-x86_64.sh
-  ![conda_2](picture/conda_2.png)
+  ![conda_2](picture/conda_2.png)<br>
 * 설치 스크립트를 실행하고 ENTER 입력으로 설치 계속<br>
   $ bash Anaconda3-5.2.0-Linux-x86_64.sh
-  ![conda_3](picture/conda_3.png)
+  ![conda_3](picture/conda_3.png)<br>
   *<center>Enter 계속 누르기</center>*<br>
-  ![conda_4](picture/conda_4.png)
+  ![conda_4](picture/conda_4.png)<br>
   *<center>라이센스 동의 질문 : yes 입력</center>*<br>
-  ![conda_5](picture/conda_5.png)
+  ![conda_5](picture/conda_5.png)<br>
   *<center>설치 경로 확인</center>*<br>
-  ![conda_6](picture/conda_6.png)
+  ![conda_6](picture/conda_6.png)<br>
   *<center>bashrc에 경로 추가 : yes </center>*<br>
-  ![conda_7](picture/conda_7.png)
+  ![conda_7](picture/conda_7.png)<br>
   *<center>vscode 설치 : no </center>*<br>
   
   참고로 vscode설치는 자유롭게 해도된다.
