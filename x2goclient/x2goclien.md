@@ -58,7 +58,7 @@ x2goclient server가 잘 동작하는지 확인하기 위해서는 다음 코드
 *<center> container 내부에서 진행되는 코드 </center>*<br>
 
 
-![x2go-server-check](x2go-server-check.png)
+![x2go-server-check](img/x2go-server-check.png)
 *<center> server 동작 확인 </center>*
 **참고한 사이트**<br>
   
@@ -83,7 +83,7 @@ container를 생성할 때 옵션을 주어야 display가 가능하다.<br>
 ```Bash
 docker ps
 ```
-![docker_ps](docker_ps.png)
+![docker_ps](img/docker_ps.png)
 *<center> docker ps </center>*
 
 * container의 정보를 확인하는 것은 local 터미널에서 진행.
@@ -108,7 +108,7 @@ docker images
 ```
 *<center> local terminal에서 진행되는 code </center>*<br>
 
-![docker_images](docker_images.png)
+![docker_images](img/docker_images.png)
 *<center> docker images의 정보 </center>*<br>
 
 내가 만든 image를 이용해서 container를 만들기 위해서는 다음과 같은 옵션을 주고 생성한다.

@@ -28,7 +28,7 @@ plt.grid(b=True)
 plt.show()
 # 그래프를 그리라는 명령이다.
 ```
-![test_graph](test_graph.png)
+![test_graph](img/test_graph.png)
 
 ### Tick 설정
 > 플롯이나 차트에서 축상의 위치 표시 지점을 틱(tick)이라고 하고 이 틱에 써진 숫자 혹은 글자를 틱 라벨(tick label)이라고 한다. <br>
@@ -50,7 +50,7 @@ plt.yticks([-1, 0, +1])
 # y축에 나타낼 값들을 list형식으로 작성해준다
 plt.show()
 ```
-![x_y_tick_label](x_y_tick_label.png)
+![x_y_tick_label](img/x_y_tick_label.png)
 
 
 ### legend
@@ -81,7 +81,7 @@ plt.show()
  |'upper left'|2|
  |'lower left'|3|
  |'lower right'|4|
-![legend](legend.png)
+![legend](img/legend.png)
 
 <br><br>
  ## RadioML에서 이용되는 Data 그리기
@@ -205,10 +205,10 @@ for i in range(410):
 
 위 코드를 진행하게 되면 410개의 데이터가 나오기 때문에 그림은 다음과 같이 소량의 그림만 가지고 왔다.
 
-![QPSK_18_143](<QPSK_18_143.png>)
+![QPSK_18_143](<img/QPSK_18_143.png>)
 
-![QPSK_18_286](QPSK_18_286.png)
-![QPSK_18_409](QPSK_18_409.png )
+![QPSK_18_286](img/QPSK_18_286.png)
+![QPSK_18_409](img/QPSK_18_409.png )
 
 
 
@@ -228,10 +228,10 @@ for i in range(410):
 ```
 *<center>BPSK_18 plot 표현 코드</center>*
 
-![QPSK_18_143](<BPSK_18_143.png>)
+![QPSK_18_143](<img/BPSK_18_143.png>)
 
-![QPSK_18_286](BPSK_18_286.png)
-![QPSK_18_409](BPSK_18_409.png )
+![QPSK_18_286](img/BPSK_18_286.png)
+![QPSK_18_409](img/BPSK_18_409.png )
 
 지금까지 나타낸 데이터값들은 모두 대조군에 해당되는 값들이다.<br>
 이제 channel의 delay와 mag의 값을 변경하여 실험을 진행한다.
@@ -298,11 +298,11 @@ for i in range(410):
 
 
 
-![QPSK_18_143](<QPSK_18_143_normalize.png>)
+![QPSK_18_143](<img/QPSK_18_143_normalize.png>)
 
-![QPSK_18_286](QPSK_18_256_normalize.png)
+![QPSK_18_286](img/QPSK_18_256_normalize.png)
 
-![QPSK_18_409](QPSK_18_409_normalize.png )
+![QPSK_18_409](img/QPSK_18_409_normalize.png )
 
 
 
@@ -322,11 +322,11 @@ for i in range(410):
 ```
 *<center>BPSK_18 plot 표현 코드</center>*
 
-![QPSK_18_143](<BPSK_18_143_normalize.png>)
+![QPSK_18_143](<img/BPSK_18_143_normalize.png>)
 
-![QPSK_18_286](BPSK_18_256_normalize.png)
+![QPSK_18_286](img/BPSK_18_256_normalize.png)
 
-![QPSK_18_409](BPSK_18_409_normalize.png )
+![QPSK_18_409](img/BPSK_18_409_normalize.png )
 
 
 
