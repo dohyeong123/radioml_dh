@@ -34,18 +34,18 @@ ls : dataset
 
 ```bash
  git clone  https://github.com/gr-vt/gr-mapper.git
- <br>
+
  cd gr-mapper
- <br>
+
  mkdir build && cd build
- <br>
+
  cmake ..
 #(could not find pkgconfig 에러가 발생하지만 이 에러는 apt-get install pkg-config로 해결)
- <br>
+
  make
- <br>
+
  make install
- <br>
+
  ldconfig
 ```
 <br><br>
@@ -62,13 +62,13 @@ apt-get install libavcodec-dev libavformat-dev libavutil-dev
 ```bash
 git clone https://github.com/osh/gr-mediatools
  cd gr-mediatools && mkdir build && cd build
- <br>
+
 cmake ..
-<br>
+
 make
-<br>
+
 make install
-<br>
+
 ldconfig
 ```
 <br>
