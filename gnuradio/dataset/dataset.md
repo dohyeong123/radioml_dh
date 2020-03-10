@@ -8,11 +8,11 @@ GNURadio상에서 QPSK데이터를 생성한다.
 * QPKS Modulation 진행
 * QT GUI Constellation을 이용한 그래프 완성
 
-![QPSK_graph](QPSK_graph.png)
+![QPSK_graph](img/QPSK_graph.png)
 
 *<center> QPSK Graph </center>*
 
-![QPSK_result](QPKS_result.png)
+![QPSK_result](img/QPKS_result.png)
 *<center> QPSK Result </center>*
 
 
@@ -25,11 +25,11 @@ GNURadio상에서 QPSK데이터를 생성한다.
 이 과정을 진행하기 위해서 GNURadio에 있는 file sink Block을 이용한다.<br> 
 이 Block은 GNURadio 내에서 만들어진 데이터들을 binary 형태로 파일을 저장하고 이진 파일은 IQIQIQ...순서로 float32로 채워지게 된다.
 
-![file_sink](file_sink.png)
+![file_sink](img/file_sink.png)
 
 *<center> file sink block </center>*
 
-![file_sink](file_sink_property.png)
+![file_sink](img/file_sink_property.png)
 
 *<center> file sink property </center>*
 
@@ -83,7 +83,7 @@ plt.grid(b=True)
 plt.show()
 ```
 *<center> plot code </center>*
-![jupyter_notebook_QPSK](jupyter_notebook_QPSK.png)
+![jupyter_notebook_QPSK](img/jupyter_notebook_QPSK.png)
 *<center> jupyter_notebook_QPSK </center>*
 
 참고한 사이트 : <https://wiki.gnuradio.org/index.php/FAQ#What_is_the_file_format_of_a_file_sink.3F_How_can_I_read_files_produced_by_a_file_sink.3F>

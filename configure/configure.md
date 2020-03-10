@@ -233,3 +233,12 @@ tensorflow-gpu       1.14.0
 (py37tf114) conda install pygpu
 (py37tf114) conda install theano
 ```
+
+> 참고로 **cudnn.h: No such file or directory\n #include <cudnn.h>\n** 이라는 데러가 나오게 되면 다음과 같이 해결한다.
+>> ```bash
+>> cd /usr/local/cuda/include
+>> sudo cp /usr/include/cudnn.h .
+>> cd /usr/local/cuda/lib64
+>> sudo cp /usr/lib/x86_64-linux-gnu/libcudnn* .
+>> ```
+
