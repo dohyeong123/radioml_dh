@@ -122,7 +122,8 @@ Chooser에서 선택된 label에는 각각 option에 대한 값이 들어가 있
         )
         
 ```
-<center>Selector Python code</center>
+<center>Selector Python code</center>  
+
 selector에 대한 코드를 나타내는 것이다.
 input과 output의 갯수를 설정하고 input index를 choose_id로 설정하는 것을 알 수 있다.
 
